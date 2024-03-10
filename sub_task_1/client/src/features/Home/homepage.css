@@ -1,0 +1,24 @@
+.background-home {
+    background: url(../../../public/kk.png);
+    height: 47vh;
+    min-width: 100vw;
+    background-repeat: no-repeat;
+    background-position: -58px -70px;
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.heading-img {
+    height: 30vh;
+}
+
+.carousel-box {
+    position: absolute;
+    right: 15px;
+    bottom: 22%;
+}

@@ -1,0 +1,7 @@
+.layout {
+    min-height: 100vh !important;
+    min-width: 100vw;
+    background: #c7e3c2;
+    background: -webkit-linear-gradient(to right, #c7e3c2, #bbccd6);  
+    background: linear-gradient(to right, #c7e3c2, #bbccd6);
+}

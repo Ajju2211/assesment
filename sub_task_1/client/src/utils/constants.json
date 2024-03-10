@@ -1,0 +1,27 @@
+{
+    "ROLES": {
+        "MANAGER": "manager",
+        "USER": "user"
+    },
+    "CUISINE_TYPES": [
+        "Indian",
+        "Asian",
+        "Chinese",
+        "North-Indian",
+        "Tandoori",
+        "Iran",
+        "Fast food",
+        "South-Indian"
+    ],
+    "FOOD_FOR": [
+        "veg",
+        "non-veg",
+        "egg"
+    ],
+    "DISH_TYPE": [
+        "starter",
+        "main_course",
+        "dessert"
+    ],
+    "UNITS":["gm","kg","ltr","ml","tea spoon", "table spoon", "cup"]
+}

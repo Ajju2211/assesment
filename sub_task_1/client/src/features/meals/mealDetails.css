@@ -1,0 +1,44 @@
+/* .box {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 8px;
+    border-radius: 10px;
+} */
+
+.img {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.txt {
+    margin: 1px;
+}
+
+.wrap {
+    overflow-wrap: break-word;
+}
+
+.fnt {
+    font-weight: bold;
+}
+
+
+.cards-container {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.myCard {
+    max-width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    flex-basis: 33.333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    overflow: hidden !important;
+}
