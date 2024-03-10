@@ -1,0 +1,46 @@
+{
+  "name": "form_back",
+  "version": "1.0.0",
+  "description": "Made with Love by ajju2211",
+  "main": "app.js",
+  "type": "module",
+  "_moduleAliases": {
+    "@opstech": "."
+  },
+  "scripts": {
+    "test": "node --no-warnings --test --env-file=.env.dev",
+    "start": "node --experimental-specifier-resolution=node --env-file=.env.dev server",
+    "dev": "node --experimental-specifier-resolution=node --env-file=.env.dev server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "bull": "^4.12.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "i": "^0.3.7",
+    "ioredis": "^5.3.2",
+    "joi": "^17.12.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "meilisearch": "^0.37.0",
+    "module-alias": "^2.2.3",
+    "mongoose": "^8.2.0",
+    "mongoose-unique-validator": "^5.0.0",
+    "nodemailer": "^6.9.11",
+    "nodemailer-mailjet-transport": "^1.0.4",
+    "npm": "^10.5.0",
+    "passport": "^0.7.0",
+    "passport-custom": "^1.1.1",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "pug": "^3.0.2",
+    "uuid": "^9.0.1"
+  }
+}

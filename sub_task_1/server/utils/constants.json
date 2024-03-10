@@ -1,0 +1,39 @@
+{
+    "ROLES": {
+        "ADMIN": "admin",
+        "USER": "user"
+    },
+    "ROLE_NAMES": {
+        "admin": "Manager",
+        "user": "user"
+    },
+    "SCOPES": {
+        "ADMIN": [
+            "https://www.googleapis.com/auth/userinfo.profile"
+        ],
+        "USER": [
+            "https://www.googleapis.com/auth/userinfo.profile"
+        ]
+    },
+    "VERIFICATION_PURPOSES":{
+        "AUTHENTICATION":"authentication",
+        "RESET_PASSWORD":"reset_password"
+    },
+    "DISH_TYPE":{
+        "STARTER":"starter",
+        "MAIN_COURSE":"main_course",
+        "DESSERT":"dessert"
+    },
+    "CUISINE_TYPES":[
+        "indian","asian","chinese","italian","japanese","greek","spanish"
+    ],
+    "FOOD_FOR":{
+        "VEG":"veg",
+        "NON_VEG":"non_veg",
+        "EGG":"egg"
+    },
+    "UNITS":{
+        "GRAMS":"gm",
+        "LITRE":"ltr"
+    }
+}
